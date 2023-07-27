@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main#conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+header#cabecalho {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: rgba(248, 177, 95, 0.973);
+}
+
+header#cabecalho img{
+    align-self: flex-start;
+}
+
+section#experiencia {
+    display: flex;
+}
+
+section#educacao {
+    display: flex;
+}
+
+section#diplomas {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(170, 255, 222);
+    padding-top: 20px;
+}
+
+section#diplomas div{
+    padding: 5px;
+    width: 200px;
+    height: 100px;
+}
+
+section#skills {
+    display: flex;
+}
+
+aside#social {
+    display: flex;
+    flex-direction: column;
+}
+
+footer#rodape {
+
+}
