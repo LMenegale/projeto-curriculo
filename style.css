@@ -114,16 +114,10 @@ section#educacao {
 
 section#diplomas {
     display: flex;
-    flex-flow: column nowrap;
-    
-}
-
-section#diplomas .diplomas {
-    display: flex;
     flex-flow: row wrap;
 }
 
-div.diplomas div{
+#diplomas div{
     background-color: rgba(211, 211, 211, 0.466);
     padding: 5px;
     width: 200px;
