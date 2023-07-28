@@ -67,7 +67,7 @@ section#principal {
 
 article h2 {
     background-image: linear-gradient(to left, rgba(164, 237, 255, 0.973), rgba(7, 163, 184, 0.973));
-    margin: 5px;
+    margin: 5px 5px 3px 5px;
     padding: 5px;
     border-radius: 5px;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.150);
@@ -76,8 +76,8 @@ article h2 {
 section#experiencia {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
-    margin: 10px;
+    justify-content: space-around;
+    margin: 0px 5px 5px 5px;
 }
 
 #experiencia div{
@@ -98,16 +98,14 @@ section#experiencia h3 a{
 
 section#educacao {
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    margin: 10px;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    margin: 0px 5px 5px 5px;
 }
 
 #educacao div {
     background-color: rgba(211, 211, 211, 0.466);
     padding: 5px;
-    width: 200px;
-    height: 100px;
     margin: 2px;
     border-radius: 5px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.459); 
@@ -116,6 +114,8 @@ section#educacao {
 section#diplomas {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 0px 5px 5px 5px;
 }
 
 #diplomas div{
@@ -131,6 +131,8 @@ section#diplomas {
 section#skills {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    margin: 0px 5px 5px 5px;
 }
 
 #skills div{
