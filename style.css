@@ -54,20 +54,24 @@ div#cabecalho > h2 {
 }
 
 div#cabecalho > p {
-    margin-right: 5px;
-    margin-bottom: 5px;
+    margin-right: 5px;    
     text-align: justify; 
     font-size: 12px;
 }
 
 section#principal {
     display: flex;
-    flex-flow: row nowrap;
+    flex-direction: column;
 }
 
-article h2 {
+article#secoes {
+    display: flex;
+    flex-direction: column;
+}
+
+article#secoes h2{
     background-image: linear-gradient(to left, rgba(164, 237, 255, 0.973), rgba(7, 163, 184, 0.973));
-    margin: 5px 5px 3px 5px;
+    margin: 10px 5px 3px 5px;
     padding: 5px;
     border-radius: 5px;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.150);
@@ -77,7 +81,6 @@ section#experiencia {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    margin: 0px 5px 5px 5px;
 }
 
 #experiencia div{
@@ -90,17 +93,11 @@ section#experiencia {
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.459); 
 }
 
-section#experiencia h3 a{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
 section#educacao {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
-    margin: 0px 5px 5px 5px;
+    margin: 0px 5px 5px 10px;
 }
 
 #educacao div {
@@ -160,8 +157,6 @@ section#skills {
 }
 
 aside#social {
-    display: flex;
-    flex-direction: column;
     background-color: rgba(164, 237, 255, 0.973);
     border-radius: 5px;
 }
