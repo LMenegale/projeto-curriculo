@@ -25,6 +25,12 @@ header#cabecalho {
     background-color: rgba(248, 177, 95, 0.973);
 }
 
+header#cabecalho img {
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.418);
+}
+
 div#cabecalho {
     display: flex;
     flex-flow: column nowrap;
@@ -37,10 +43,15 @@ div#cabecalho > h1 {
 
 div#cabecalho > h2 {
     font-size: 14px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.24);
 }
 
 div#cabecalho > p {
-    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-align: justify; 
     font-size: 14px;
 }
 
