@@ -79,13 +79,15 @@ section#diplomas {
 }
 section#diplomas .diplomas {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
 }
 
-section#diplomas .diplomas div{
+div.diplomas div{
     background-color: burlywood;
     border: 1px solid black;
-   
+    padding: 5px;
+    width: 200px;
+    height: 75px;
 }
 
 section#skills {
@@ -102,6 +104,17 @@ section#skills .skills{
 
 aside#social {
     align-self: flex-end;
+}
+
+aside#social img{
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.329);
+}
+
+aside#social img:hover{
+    transform: translate(-2px, -2px);
+    transition: 0.5s;
+    background-color: rgba(2, 170, 248, 0.329);
 }
 
 footer#rodape {
