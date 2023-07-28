@@ -43,6 +43,7 @@ div#cabecalho {
 div#cabecalho > h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-top: 5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.363);
 }
 
 div#cabecalho > h2 {
@@ -129,14 +130,31 @@ section#diplomas {
 
 section#skills {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
-div.skills{
-    display: flex;
-    flex-direction: row;
-    column-gap: 100px;
-    background-color: thistle;
+#skills div{
+    background-color: rgba(211, 211, 211, 0.466);
+    padding: 5px;
+    width: 200px;
+    height: 100px;
+    margin: 2px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.459);
+}
+
+#skills div h3 {
+    background-color: rgba(197, 197, 197, 0.466);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 2px;
+    margin-bottom: 5px;
+}
+
+#skills div li {
+    text-indent: 4px;
+    list-style: circle;
+    list-style-position: inside;
 }
 
 aside#social {
