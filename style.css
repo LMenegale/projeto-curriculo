@@ -52,11 +52,13 @@ div#cabecalho > p {
     margin-right: 5px;
     margin-bottom: 5px;
     text-align: justify; 
-    font-size: 14px;
+    font-size: 12px;
 }
 
-header#cabecalho img{
-
+article h2 {
+    background-color: sandybrown;
+    padding: 5px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.150);
 }
 
 section#experiencia {
@@ -69,17 +71,16 @@ section#educacao {
 
 section#diplomas {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column nowrap;
+    
+}
+section#diplomas .diplomas {
+    display: flex;
+    flex-flow: row nowrap;
     justify-content: center;
     align-content: center;
     background-color: rgb(170, 255, 222);
     padding-top: 20px;
-}
-
-section#diplomas h2 {
-    background-color: blueviolet;
-    position: relative;
-    top: -10px;
 }
 
 section#diplomas div{
@@ -90,6 +91,14 @@ section#diplomas div{
 
 section#skills {
     display: flex;
+    flex-direction: column;
+}
+
+section#skills .skills{
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    background-color: thistle;
 }
 
 aside#social {
