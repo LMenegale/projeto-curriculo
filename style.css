@@ -17,7 +17,7 @@ body {
 
 header#cabecalho {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     justify-content:center;
     gap: 10px;
     background-image: linear-gradient(to top, rgba(164, 237, 255, 0.973), rgba(7, 163, 184, 0.973));
@@ -25,41 +25,38 @@ header#cabecalho {
 }
 
 header#cabecalho img#foto {
-    margin: 10px 5px 0px 10px;
+    margin: 10px;
     border-radius: 5px;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.418);
 }
 
 header#cabecalho img#localizacao {
     align-self: flex-start;
-    margin: 10px;
+    margin: 20px;
 }
 
 div#escrito {
     display: flex;
-    flex-flow: column nowrap;
-    row-gap: 0px;
+    flex-flow: row nowrap;
+    column-gap: 10px;
 }
 
-div#escrito > h1 {
-    display: flex;
-    flex-direction: row;
+div#identificacao > h1 {
+    padding-top: 10px;
     justify-content: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.363);
 }
 
-div#esrito > h2 {
+div#identificacao > h2 {
     font-size: 14px;
-    padding-bottom: 5px;
-    margin-bottom: 5px;
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.24);
 }
 
-div#escrito > p {
-    margin-right: 5px;    
+header#cabecalho > p {
+    padding: 0px 10px 10px 10px;    
     text-align: justify; 
-    font-size: 12px;
+    font-size: 14px;
 }
 
 main#conteudo {
