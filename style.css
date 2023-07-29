@@ -16,11 +16,6 @@ body {
     width: 100vw;
 }
 
-main#conteudo {
-    display: flex;
-    flex-direction: column;
-}
-
 header#cabecalho {
     display: flex;
     flex-flow: row nowrap;
@@ -66,12 +61,6 @@ div#cabecalho > p {
     margin-right: 5px;    
     text-align: justify; 
     font-size: 12px;
-}
-
-section#principal {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
 }
 
 article#secoes {
