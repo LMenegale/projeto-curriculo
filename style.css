@@ -62,7 +62,8 @@ div#cabecalho > p {
 
 section#principal {
     display: flex;
-    flex-direction: column;
+    flex-flow: row nowrap;
+    justify-content: space-around;
 }
 
 article#secoes {
@@ -115,7 +116,7 @@ section#experiencia {
 
 section#educacao {
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: row nowrap;
     justify-content: space-around;
     margin: 0px 5px 5px 10px;
 }
