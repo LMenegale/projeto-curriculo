@@ -18,8 +18,7 @@ body {
 header#cabecalho {
     display: flex;
     flex-flow: column nowrap;
-    justify-content:center;
-    gap: 10px;
+    justify-content: flex-start;
     background-image: linear-gradient(to top, rgba(164, 237, 255, 0.973), rgba(7, 163, 184, 0.973));
     margin-bottom: 10px;
 }
@@ -41,6 +40,12 @@ div#escrito {
     column-gap: 10px;
 }
 
+div#identificacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 div#identificacao > h1 {
     padding-top: 10px;
     justify-content: center;
@@ -54,7 +59,7 @@ div#identificacao > h2 {
 }
 
 header#cabecalho > p {
-    padding: 0px 10px 10px 10px;    
+    padding: 0px 10px 0px 10px;    
     text-align: justify; 
     font-size: 14px;
 }
