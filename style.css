@@ -114,7 +114,7 @@ article#secoes p {
 }
 
 article#secoes p.cod {
-    font-size: 9px;
+    font-size: 11px;
 }
 
 article#secoes div h3 a{
@@ -181,7 +181,7 @@ section#diplomas {
 
 #diplomas div{
     padding: 5px;
-    width: 150px;
+    width: 180px;
     height: 100px;
     margin: 2px;
     border-radius: 5px;
