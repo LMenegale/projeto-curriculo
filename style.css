@@ -71,8 +71,7 @@ header#cabecalho > p {
 }
 
 main#conteudo {
-    width: 80vw;
-    margin: auto;
+    width: 90vw;
     background-image: linear-gradient(to bottom, rgba(181, 240, 255, 0.973), rgba(59, 187, 204, 0.973));
     display: flex;
     flex-flow: row nowrap;
