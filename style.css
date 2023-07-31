@@ -16,6 +16,7 @@ body {
 }
 
 header#cabecalho {
+    width: 100vw;
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
@@ -66,6 +67,7 @@ header#cabecalho > p {
 }
 
 main#conteudo {
+    width: 100vw;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -99,7 +101,7 @@ article#secoes {
 article#secoes div {
    line-height: 1.2em;
    background-color: rgba(255, 255, 255, 0.466);
-   padding: 0;
+   padding: 1px;
 }
 
 article#secoes h4 {
@@ -108,6 +110,10 @@ article#secoes h4 {
 
 article#secoes p {
     padding: 2px 5px 5px 5px;
+}
+
+article#secoes p.cod {
+    font-size: 9px;
 }
 
 article#secoes div h3 a{
@@ -175,10 +181,14 @@ section#diplomas {
 #diplomas div{
     padding: 5px;
     width: 150px;
-    height: 90px;
+    height: 100px;
     margin: 2px;
     border-radius: 5px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.459);
+}
+
+#diplomas div p{
+    line-height: 0.7em;
 }
 
 section#skills {
@@ -212,6 +222,7 @@ section#skills {
 }
 
 footer#rodape {
+    width: 100vw;
     text-align: center;
     background-color: rgba(59, 187, 204, 0.973);
     padding: 5px;
