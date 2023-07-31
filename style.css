@@ -9,15 +9,13 @@
     list-style-type: none;
 }
 
-html, body {
-    width: 100vw;
+html, body {    
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     background-color: gainsboro;
 }
 
-header#cabecalho {
-    width: 100%;
+header#cabecalho {    
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
@@ -224,7 +222,6 @@ section#skills {
 }
 
 footer#rodape {
-    width: 100%;
     text-align: center;
     background-color: rgba(59, 187, 204, 0.973);
     padding: 5px;
