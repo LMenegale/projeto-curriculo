@@ -96,6 +96,7 @@ aside#social img:hover{
 article#secoes {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 article#secoes div {
