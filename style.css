@@ -20,7 +20,7 @@ body {
 }
 
 header#cabecalho {
-
+    width: 100vw;
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
@@ -229,6 +229,7 @@ section#skills {
 }
 
 footer#rodape {
+    width: 100vw;
     text-align: center;
     background-color: rgba(59, 187, 204, 0.973);
     padding: 5px;
